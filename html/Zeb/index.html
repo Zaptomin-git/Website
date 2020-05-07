@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zeb</title>
+    <link rel="stylesheet" href="/css/Zeb/master.css">
+    <link href="/font/Material/material-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/Zeb/Zeb.ico" type="image/ico">
+    <script type="text/javascript" src="/js/Zeb/master.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+        <a class="navitem btnsmallblue" href="/" draggable="false">Home</a>
+        <a class="navitem btnsmallblue" onclick="window.open('/Zeb/Code/', 'Zeb - Code Editor', 'resizable=yes,scrollbars=yes,height=undefined,width=undefined', false);" draggable="false">Code editor</a>
+        <a class="navitem btnsmallblue" href="ifwindow.html" onclick="window.open('index.html', 'Zeb', 'resizable=yes,scrollbars=yes,height=undefined,width=undefined', false);" draggable="false">Open in a window</a>
+        <a class="navitem btnsmallblue" href="#?style" draggable="false">Styles</a>
+    </div>
+    <div class="grid">
+      <div class="items">
+        <div class="itemcontainer"><a class="item btnsmallbluedrag" draggable="true">Small button</a></div>
+        <div class="itemcontainer"><div class="containerdrag" draggable="true"></div></div>
+        <div class="itemcontainer"><p class="textdrag" draggable="true">Text</p></div>
+        <div class="itemcontainer"><a class="linkdrag" draggable="true">Link</a></div>
+        <div class="itemcontainer"><input class="texteditdrag" type="text" placeholder="text input" draggable="true"></div>
+        <div class="itemcontainer"><h1 class="titledrag" draggable="true">Title</h1></div>
+      </div>
+      <div class="workspace dropzone">
+      </div>
+    </div>
+      <div>
+        <div class="dropzone trash drop"><i class="material-icons trashicon">delete</i></div>
+      </div>
+  </body>
+</html>

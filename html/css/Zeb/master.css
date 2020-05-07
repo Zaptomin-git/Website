@@ -1,0 +1,178 @@
+body {
+  font-family: "open sans", sans-serif;
+}
+
+div.nav {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  height: 55px;
+  border-radius: 8px;
+  margin: 8px;
+  overflow: auto;
+}
+
+div.nav a.navitem {
+  float: right;
+}
+
+div.nav a.btnsmallblue:hover {
+  background-color: #42a5f5;
+  cursor: hover;
+}
+
+a.btnsmallblue {
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
+
+a.btnsmallbluedrag {
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
+
+a.btnsmallbluedrag:hover {
+  background-color: #42a5f5;
+  cursor: grab;
+}
+
+div.items {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin: 8px;
+  overflow: auto;
+  padding: 16px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+div.drop {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+div.dropzone {}
+
+div.dropzone.trash {
+  background-color: #f44336;
+  border-radius: 25px;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+i.trashicon {
+  color: #e57373;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.containerdrag {
+  margin: 8px;
+  padding: 16px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 2px;
+}
+
+div.containerdrag {
+  cursor: grab;
+}
+
+div.containerdrag:empty::after {
+  content: "Container";
+}
+
+div.workspace {
+  background-color: #eceff1;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  grid-column: 1;
+  grid-row: 1;
+  min-height: auto;
+}
+
+div.itemcontainer {
+  padding: 8px;
+}
+
+div.grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+p.textdrag {
+  margin: 8px;
+  padding: 8px;
+  color: #37474f;
+}
+
+p.textdrag:hover {
+  cursor: grab;
+}
+
+a.linkdrag {
+  margin: 8px;
+  padding: 8px;
+  color: #4fc3f7;
+  text-decoration: underline;
+}
+
+a.linkdrag:hover {
+  cursor: grab;
+}
+
+input.texteditdrag {
+  border-bottom: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #eceff1;
+  border-color: #eceff1;
+  font-family: 'Open Sans', sans-serif;
+  padding: 16px;
+  border-width: 4px;
+  border-radius: 4px;
+  transition-duration: 0.5s;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input.texteditdrag:hover {
+  cursor: grab;
+}
+
+input.texteditdrag:focus {
+  outline: none;
+  border-color: #81d4fa;
+}
+
+h1.titledrag {
+  font-family: 'Open Sans', sans-serif;'
+  color: #37474f;
+  margin: 8px;
+  padding: 8px;
+}
+
+h1.titledrag:hover {
+  cursor: grab;
+}

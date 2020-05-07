@@ -1,0 +1,10 @@
+h1 {
+  font-family: 'open sans', sans-serif;
+  font-size: 94px;
+  width: 1000px;
+  color: #37474f;
+}
+
+html {
+  background-image: url('/img/volunteer-background.svg');
+}

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zakarya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zaptomin.net
+  * I am zakarya (https://keybase.io/zakarya) on keybase.
+  * I have a public key ASAYv1a94pvodxWbyOyzHt9efsZyq0EUkP61Q4yDVMEL8Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201050a5e21440a4cefe58bd5a76d0f08ac56e1deb4a97a6e56e7648c73f919a160a",
+      "host": "keybase.io",
+      "kid": "012018bf56bde29be877159bc8ecb31edf5e7ec672ab411490feb5438c8354c10bf00a",
+      "uid": "867d68185970d4c26ab1cbc8f12e6519",
+      "username": "zakarya"
+    },
+    "merkle_root": {
+      "ctime": 1568944760,
+      "hash": "670dfd23018a6408459d04994a8bbd4ecc22f9e8b640fa8d4ff33df949c1332a474856664244f19ad9c9f161efdd48aca06241a32eacb85d1b01cf797adbeeb0",
+      "hash_meta": "8ac8b024cacc835ec3fe97dfcf6ec42c88a731f4a2570b4bdb5a16e2aa25e11b",
+      "seqno": 7624449
+    },
+    "service": {
+      "entropy": "uiYO8hZPOwOTapoGTd90H6t2",
+      "hostname": "zaptomin.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.2"
+  },
+  "ctime": 1568944770,
+  "expire_in": 504576000,
+  "prev": "99b1b1685199a546ac05bcd52bcbe375021a02a7aafe1629d7095a487154906d",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGL9WveKb6HcVm8jssx7fXn7GcqtBFJD+tUOMg1TBC/AKp3BheWxvYWTESpcCDsQgmbGxaFGZpUasBbzVK8vjdQIaAqeq/hYp1wlaSHFUkG3EIL91+xN3lp1nWKO/5gpZNnNxP0Lh0ypiQecLzeGN+H9eAgHCo3NpZ8RAf/NB8p30Bg9zB6noGKdx5SisCOHwj4fiKtF3YdI0VgdNFnHgg6pvS//AoPrOriegnmX4PjIt5dxDsDaKIGzyCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE5pyGMFvpQWhn76CeDPFUmj9Z6a4E/uwvI3EWVy7J2to3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zakarya
+
+==================================================================
